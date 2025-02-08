@@ -32,8 +32,7 @@ import com.medsync.Medsync_booking.Repository.UserRepository;
 import com.medsync.Medsync_booking.Security.JWT.JwtUtils;
 import com.medsync.Medsync_booking.Security.Services.UserDetailsImpl;
 
-
-@CrossOrigin(origins = "*", maxAge = 3600)
+@CrossOrigin(origins = "http://localhost:5173" )
 @RestController
 @RequestMapping("/api/auth")
 
